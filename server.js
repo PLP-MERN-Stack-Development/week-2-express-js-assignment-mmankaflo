@@ -15,7 +15,7 @@ app.use(express.json());
 // Root route
 app.get("/", (req, res) => {
   res.send(
-    "Welcome to the Product API! Go to /api/products to see all products."
+    "Hello World, Welcome to the Product API! Go to /api/products to see all products."
   );
 });
 
